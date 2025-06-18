@@ -1,0 +1,11 @@
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+cohere
+requests
+python-dotenv
+schedule
+python-telegram-bot==13.15
+aiogram
+requests
