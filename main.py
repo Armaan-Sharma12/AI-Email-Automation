@@ -6,8 +6,8 @@ from automation.gmail_actions import delete_email, send_auto_reply, save_draft
 from automation.gmail_reader import get_email_body
 from Integrations.google_calendar import add_event_to_calendar
 
-async def process_emails():
-    emails = await fetch_emails()
+def process_emails():
+    emails = fetch_emails()
     if not emails:
         print("⚠️ No emails returned. Skipping processing.")
         return
@@ -66,4 +66,4 @@ async def process_emails():
         print("✅ Telegram alert sent successfully.")
 
 if __name__ == "__main__":
-    asyncio.run(process_emails())
+    process_emails()

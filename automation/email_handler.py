@@ -31,7 +31,7 @@ def save_email_metadata(data: dict):
     with open(EMAILS_JSON, 'w', encoding='utf-8') as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
 
-def fetch_and_process_emails():
+def fetch_emails():
     service = get_gmail_service()
     emails = get_latest_emails(service)
 
