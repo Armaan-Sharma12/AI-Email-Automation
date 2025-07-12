@@ -141,6 +141,8 @@ Send a pull request and let’s make email management smarter together.
 B.Tech CSE @ Amity University 
 https://github.com/Armaan-Sharma12
 
+Blog Post: [How I built this AI Email Assistant](https://dev.to/armaansharma12/automating-my-inbox-with-ai-a-python-email-assistant-using-cohere-gmail-api-and-telegram-alerts-k15)
+
 
 
  
